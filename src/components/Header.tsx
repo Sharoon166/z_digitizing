@@ -14,7 +14,7 @@ const Header = () => {
           </p>
         </div>
       </div>
-      <nav>
+      <nav className="max-sm:hidden">
         <ul className="flex items-center gap-6 text-gray-700">
           <li>
             <a href="#showcase" className="hover:text-green-800">

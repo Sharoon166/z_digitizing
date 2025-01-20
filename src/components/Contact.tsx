@@ -1,11 +1,8 @@
+import { contactLinks } from "@/constants";
 import FlipLink from "./ui/FlipLink";
 import { ExternalLink } from "lucide-react";
 
 const Contact = () => {
-  const contactLinks = [
-    { contact: "Email", href: "mailto:example@example.com" },
-    { contact: "WhatsApp", href: "https://wa.me/1234567890" },
-  ];
 
   return (
     <section id="contact">
@@ -15,7 +12,7 @@ const Contact = () => {
           <FlipLink
             key={href}
             href={href}
-            endContent={<ExternalLink className="text-4xl size-24" />}
+            endContent={<ExternalLink className="text-4xl size-10 md:size-24" />}
           >
             {contact}
           </FlipLink>
