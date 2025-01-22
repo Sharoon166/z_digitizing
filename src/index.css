@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 0 0% 98%;
     --foreground: 240 10% 3.9%;
     --card: 0 0% 100%;
     --card-foreground: 240 10% 3.9%;
@@ -34,7 +34,7 @@
     scrollbar-color: var(--primary);
   }
   .dark {
-    --background: 240 10% 3.9%;
+    --background: 0 0% 9%;
     --foreground: 0 0% 98%;
     --card: 240 10% 3.9%;
     --card-foreground: 0 0% 98%;
@@ -71,6 +71,6 @@
   h1,
   h2,
   h3 {
-    @apply text-gray-800;
+    @apply text-zinc-700 dark:text-mustard;
   }
 }

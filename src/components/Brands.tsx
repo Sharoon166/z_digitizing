@@ -40,7 +40,7 @@ const Brands = () => {
       <section className="space-y-6">
           <h3 className="text-center text-3xl md:text-4xl font-semibold">Trusted by the best brands</h3>
       <InfiniteMovingCards
-        items={brands.map(brand => <img src={brand.url} alt={`${brand.name}'s logo`} className="h-16 md:h-20" />)}
+        items={brands.map(brand => <img src={brand.url} alt={`${brand.name}'s logo`} className="h-16 md:h-20 grayscale dark:invert" />)}
       />
     </section>
   );
